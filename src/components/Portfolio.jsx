@@ -13,6 +13,18 @@ const Portfolio = () => {
         src:"https://t3.ftcdn.net/jpg/03/18/05/58/360_F_318055891_aSOmZ2heKd7EOADVEKNrSvlGBT3oidO8.jpg",
         demo:"https://karishmahangman.netlify.app",
         code:"https://github.com/Karishmasahoo99/hangman",
+    },
+    {
+        id:3,
+        src:"https://t3.ftcdn.net/jpg/04/69/25/24/360_F_469252413_11e4y5LN4xJqys8Fy8pbNdKBm0wygN5I.jpg",
+        demo:"https://karishma-snakegame.netlify.app",
+        code:"https://github.com/Karishmasahoo99/snake-game",
+    },
+    {
+        id:4,
+        src:"https://i.pinimg.com/564x/f8/4a/9f/f84a9f2ee589edacaef51b64dce22f9a.jpg",
+        demo:"https://karishma-breakout-game.netlify.app/",
+        code:"https://github.com/Karishmasahoo99/Breakout-game",
     }
   ]
   return (
