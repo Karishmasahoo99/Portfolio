@@ -44,6 +44,12 @@ const Experience = () => {
         title:"Github",
         style:"shadow-gray-400",
     },
+    {
+        id:8,
+        src:"https://seeklogo.com/images/M/mongodb-logo-D13D67C930-seeklogo.com.png",
+        title:"Mongodb",
+        style:"shadow-green-400",
+    },
 
   ]
   return (
