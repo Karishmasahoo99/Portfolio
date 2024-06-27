@@ -64,8 +64,10 @@ const Experience = () => {
                 {
                     tech.map((techItem)=>(
                         <div key={techItem.id} className={`shadow-md hover:scale-105 duration-500 py-2 rounded-r-lg ${techItem.style}`}>
-                            <img src={techItem.src} alt="" className='w-20 mx-auto'/>
-                            <p className='mt-4'>{techItem.title}</p>
+                            <div className='flex flex-col justify-center items-center h-full'>
+                               <img src={techItem.src} alt="" className='w-20 mx-auto my-auto'/>
+                               <p className='mt-4'>{techItem.title}</p>
+                            </div>
                         </div>
                     ))
                 }

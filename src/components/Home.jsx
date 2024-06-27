@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-import karishmaLight from "../assets/karishma-light.jpg";
-import karishmaDark from "../assets/karishma-dark.jpg";
+import karishma from "../assets/karishma.png"
 import { MdKeyboardArrowRight } from "react-icons/md";
 import { TypeAnimation } from 'react-type-animation';
 import { FaTimes } from 'react-icons/fa';
@@ -95,8 +94,7 @@ function Home() {
                 )}
 
                 <div className={`rounded-full mt-8 md:mt-0 ${showMessage ? 'blurred-background' : ''}`}>
-                    <img src={karishmaDark} alt="myImage" className='rounded-full mx-auto md:mr-0 w-2/3 hover:scale-105 hidden dark:block'/>
-                    <img src={karishmaLight} alt="myImage" className='rounded-full mx-auto w-2/3 md:mr-0 hover:scale-105 block dark:hidden'/>
+                    <img src={karishma} alt="myImage" className='rounded-full mx-auto md:mr-0 w-2/3 hover:scale-105'/>
                 </div>
             </div>
         </div>

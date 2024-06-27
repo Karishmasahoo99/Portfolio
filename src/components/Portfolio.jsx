@@ -29,22 +29,50 @@ const Portfolio = () => {
       demo: "https://karishma-breakout-game.netlify.app/",
       code: "https://github.com/Karishmasahoo99/Breakout-game",
       description: "A breakout game built with HTML5, CSS3, and vanilla JavaScript. Break all the bricks with the ball!"
-    }
+    },
+    {
+      id: 5,
+      src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAOKBMldaJcFQikUYxSymja5DVU23ooLZD_A&s",
+      demo: "https://karishma-ditto-ui.netlify.app/",
+      code: "https://github.com/Karishmasahoo99/Ditto",
+      description: "Ditto UI is a modern, responsive UI framework built with Vite and Tailwind CSS."
+    },
+    {
+      id: 7,
+      src: "https://mailrelay.com/wp-content/uploads/2018/03/que-es-un-blog-1.png",
+      demo: "https://karishma-blog.netlify.app/",
+      code: "https://github.com/Karishmasahoo99/Blog",
+      description: "Blog made using react and Appwrite which is our backend as a service. Use random email to login."
+    },
+    // {
+    //   id: 8,
+    //   src: "https://mailrelay.com/wp-content/uploads/2018/03/que-es-un-blog-1.png",
+    //   demo: "",
+    //   code: "",
+    //   description: ""
+    // },
+    // {
+    //   id: 9,
+    //   src: "https://mailrelay.com/wp-content/uploads/2018/03/que-es-un-blog-1.png",
+    //   demo: "",
+    //   code: "",
+    //   description: ""
+    // },
   ];
 
   return (
     <div name="projects" className='h-auto bg-gradient-to-b px-6 md:px-25 dark:from-black dark:via-black dark:to-gray-800 from-white via-white to-gray-200 w-full dark:text-white'>
       <div className='max-w-screen-lg py-4 mx-auto flex flex-col justify-center w-full h-auto pb-10'>
-        <div className='pb-8'>
-          <p className='text-4xl font-bold inline border-b-4 border-gray-500'>Projects</p>
-          <p className='py-6'>Check out some of my work right here</p>
-        </div>
-        <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0'>
-          {projects.map((project) => (
-            <div key={project.id} className='relative group'>
-              <div className='shadow-md shadow-gray-600 rounded-lg overflow-hidden'>
+            <div className='pb-8'>
+                <p className='text-4xl font-bold inline border-b-4 border-gray-500'>Projects</p>
+                <p className='py-6'>Check out some of my work right here</p>
+            </div>
+            <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0'>
+            {projects.map((project) => (
+            <div key={project.id} className='relative group shadow-md shadow-gray-600 rounded-lg overflow-hidden'>
+              <div>
                 <img src={project.src} alt={project.id} className='rounded-md duration-200 hover:scale-105 w-full h-[250px]' />
-                <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-black bg-opacity-50 rounded-lg pointer-events-none">
+                <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-black bg-opacity-80 rounded-lg pointer-events-none">
                   <p className="text-white text-center p-4">{project.description}</p>
                 </div>
               </div>
