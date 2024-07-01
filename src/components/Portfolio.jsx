@@ -35,22 +35,22 @@ const Portfolio = () => {
       src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAOKBMldaJcFQikUYxSymja5DVU23ooLZD_A&s",
       demo: "https://karishma-ditto-ui.netlify.app/",
       code: "https://github.com/Karishmasahoo99/Ditto",
-      description: "Ditto UI is a modern, responsive UI framework built with Vite and Tailwind CSS."
+      description: "Ditto is a modern, responsive website built with Vite and Tailwind CSS."
     },
     {
-      id: 7,
+      id: 6,
       src: "https://mailrelay.com/wp-content/uploads/2018/03/que-es-un-blog-1.png",
       demo: "https://karishma-blog.netlify.app/",
       code: "https://github.com/Karishmasahoo99/Blog",
       description: "Blog made using react and Appwrite which is our backend as a service. Use random email to login."
     },
-    // {
-    //   id: 8,
-    //   src: "https://mailrelay.com/wp-content/uploads/2018/03/que-es-un-blog-1.png",
-    //   demo: "",
-    //   code: "",
-    //   description: ""
-    // },
+    {
+      id: 7,
+      src: "./brainwave.svg",
+      demo: "https://karishma-brainwave-ui.netlify.app/",
+      code: "https://github.com/Karishmasahoo99/brainwave",
+      description: "Modern and visually appealing UI-Brainwave"
+    },
     // {
     //   id: 9,
     //   src: "https://mailrelay.com/wp-content/uploads/2018/03/que-es-un-blog-1.png",
